@@ -1,0 +1,31 @@
+basePath: /api/v1
+info:
+  contact: {}
+  description: API de autenticação
+  termsOfService: http://swagger.io/terms/
+  title: Auth API
+  version: "1.0"
+paths:
+  /health:
+    get:
+      consumes:
+      - application/json
+      description: Returns information about the service health
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Service health information
+          schema:
+            additionalProperties: true
+            type: object
+        "500":
+          description: Service health check failed
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Check service health
+      tags:
+      - Health
+swagger: "2.0"
