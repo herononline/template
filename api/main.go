@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/go-gorote/gorote"
-	"github.com/go-gorote/temp/env"
+	"github.com/go-gorote/template/env"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 	"github.com/gofiber/fiber/v2/middleware/helmet"
@@ -17,7 +17,7 @@ import (
 	"go.opentelemetry.io/otel/sdk/resource"
 	semconv "go.opentelemetry.io/otel/semconv/v1.12.0"
 
-	_ "github.com/go-gorote/temp/docs"
+	_ "github.com/go-gorote/template/docs"
 )
 
 func gracefulShutdown(ctx context.Context, app *fiber.App) {
