@@ -5,8 +5,8 @@ import (
 
 	"github.com/go-gorote/auth"
 	"github.com/go-gorote/gorote"
-	"github.com/go-gorote/temp/app/example"
-	"github.com/go-gorote/temp/env"
+	"github.com/go-gorote/template/app/example"
+	"github.com/go-gorote/template/env"
 	"github.com/gofiber/fiber/v2"
 	"gorm.io/driver/postgres"
 )

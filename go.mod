@@ -1,4 +1,4 @@
-module github.com/go-gorote/temp
+module github.com/go-gorote/template
 
 go 1.24.0
 
